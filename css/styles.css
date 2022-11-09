@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    height: 100%;
+    margin: 0%;
+    font-family: 'Noto Sans', sans-serif;
+    color: #57979c;  
+}
+
+.contenedor{
+    display: flex;
+}
+#img_logo{
+    width: 150px;
+}
+.nav_contenedor_enlaces {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 15px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #57979c;
+    transition: 0.2s ease-in-out;
+}
+a:hover {
+    font-size: 25px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Fondo\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+h1 {
+    text-align: center;
+    color: #57979c;
+    font-size: 30px;
+    margin: 0%;
+    margin-bottom: 12px;
+}
+h2 {
+    text-align: center;
+    color: #57979c;
+    font-size: 30px;
+    margin: 0%;
+}
+.contenedor_imagen {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 0 auto;
+    gap: 5%;
+    margin-top: 5%;
+}
+h3{
+    text-align: center ;
+    color: #57979c;
+    font-size: 30px;
+    margin: 0%;
+    margin-top: 5%;
+}
+
+.contenedor_nosotros {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5%;
+    margin: auto;
+}
+
+.integrante {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagen_integrante {
+    border-radius: 50%;
+}
+
+#p_nosotros{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin: 0%;
+    margin-bottom: 12px;
+}
